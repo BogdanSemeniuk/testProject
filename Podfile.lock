@@ -1,0 +1,30 @@
+PODS:
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - Swinject (2.5.0)
+  - SwinjectStoryboard (2.1.0):
+    - Swinject (~> 2.5)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
+
+PODFILE CHECKSUM: 4038f81e76668a2e9ca73c0245a2b03a67ec94f6
+
+COCOAPODS: 1.6.0.beta.1

@@ -9,23 +9,23 @@
 import UIKit
 
 class InfoViewController: UIViewController, Storyboarded {
-
-    weak var coordinator: MainCoordinator?
+    
+    var router: InfoViewControllerRouter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func backButtonTapped(_ sender: UIButton) {
-        coordinator?.back()
+        router.back()
     }
     
     @IBAction func showHiGreeting(_ sender: UIButton) {
-        coordinator?.show(greeting: "Hi!!!")
+        router.showGreeting(text: "Hi!!!")
     }
     
     @IBAction func showHelloGreeting(_ sender: UIButton) {
-        coordinator?.show(greeting: "Hello!")
+        router.showGreeting(text: "Hello!")
     }
     
 }

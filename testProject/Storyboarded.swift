@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwinjectStoryboard
 
 protocol Storyboarded {
     static func instantiateFromStoryboard(withName name: StoryboardName) -> Self
@@ -17,16 +18,9 @@ extension Storyboarded where Self: UIViewController {
         let fullName = NSStringFromClass(self)
         let className = fullName.components(separatedBy: ".")[1]
         
-        var storyboard: UIStoryboard!
-        switch name {
-        case .main: storyboard = UIStoryboard(name: name.rawValue.capitalized, bundle: Bundle.main)
-        case .onboarding: storyboard = UIStoryboard(name: name.rawValue.capitalized, bundle: Bundle.main)
-        }
+        let storyboard: UIStoryboard = SwinjectStoryboard
+            .create(name: name.rawValue.capitalized, bundle: Bundle.main, container: DIConainer.resolver)
         
         return storyboard.instantiateViewController(withIdentifier: className) as! Self
     }
-}
-
-enum StoryboardName: String {
-    case main, onboarding
 }

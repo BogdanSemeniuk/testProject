@@ -10,7 +10,6 @@ import UIKit
 
 class GreetingViewController: UIViewController, Storyboarded {
     
-    weak var coordinator: MainCoordinator?
     var greetingText: String!
     @IBOutlet private weak var greetingLabel: UILabel!
     

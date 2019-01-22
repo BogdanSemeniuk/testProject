@@ -9,14 +9,14 @@
 import UIKit
 
 class DetailViewController: UIViewController, Storyboarded {
-
-    weak var coordinator: MainCoordinator?
+    
+    var router: DetailViewControllerRouter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func backButtonTapped(_ sender: UIButton) {
-        coordinator?.back()
+        router.back()
     }
 }

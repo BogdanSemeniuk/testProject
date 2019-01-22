@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6A761EE2DBC478FF629139AB /* Pods_testProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6CB504FD7E803C639ADA36 /* Pods_testProject.framework */; };
+		F5063BBF21F610F100C407F6 /* OnboardingFirstRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063BBE21F610F100C407F6 /* OnboardingFirstRouter.swift */; };
+		F5063BC121F6110F00C407F6 /* OnboardingSecondRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063BC021F6110F00C407F6 /* OnboardingSecondRouter.swift */; };
+		F5063BC321F6112600C407F6 /* ViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063BC221F6112600C407F6 /* ViewControllerRouter.swift */; };
+		F5063BC521F612C800C407F6 /* SecondViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5063BC421F612C800C407F6 /* SecondViewControllerRouter.swift */; };
 		F50CDC6221EE1B8500F1393E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50CDC6121EE1B8500F1393E /* Onboarding.storyboard */; };
 		F50CDC6421EE1C4B00F1393E /* OnboardingFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6321EE1C4B00F1393E /* OnboardingFirstController.swift */; };
 		F50CDC6621EE1C6200F1393E /* OnboardingSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6521EE1C6200F1393E /* OnboardingSecondController.swift */; };
-		F50CDC6921EE1FDC00F1393E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6821EE1FDC00F1393E /* OnboardingCoordinator.swift */; };
 		F50CDC6B21EE23F400F1393E /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */; };
 		F50CDC6D21EE332C00F1393E /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */; };
+		F5855E1E21F3796E00C28BFD /* StocksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E1D21F3796E00C28BFD /* StocksManager.swift */; };
+		F5855E2121F37A0700C28BFD /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2021F37A0700C28BFD /* NewsManager.swift */; };
+		F5855E2321F37A4900C28BFD /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2221F37A4900C28BFD /* Container.swift */; };
+		F5855E2521F3874E00C28BFD /* ManagerAssebly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2421F3874E00C28BFD /* ManagerAssebly.swift */; };
+		F5855E2721F3879A00C28BFD /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2621F3879A00C28BFD /* ViewControllerAssembly.swift */; };
 		F5A4F26421ECCF1B00159D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */; };
 		F5A4F26621ECCF1B00159D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F26521ECCF1B00159D35 /* ViewController.swift */; };
 		F5A4F26921ECCF1B00159D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4F26721ECCF1B00159D35 /* Main.storyboard */; };
@@ -23,22 +31,31 @@
 		F5A4F27821ECD09600159D35 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F27721ECD09600159D35 /* ThirdViewController.swift */; };
 		F5A4F27A21ECD29800159D35 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F27921ECD29800159D35 /* InfoViewController.swift */; };
 		F5A4F27C21ECD2B300159D35 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F27B21ECD2B300159D35 /* DetailViewController.swift */; };
-		F5A4F28221ECE06300159D35 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F28121ECE06300159D35 /* AppCoordinator.swift */; };
-		F5A4F28421ECE0D700159D35 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F28321ECE0D700159D35 /* Coordinator.swift */; };
-		F5A4F28621ECE12D00159D35 /* MainCoordinatorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F28521ECE12D00159D35 /* MainCoordinatorImplementation.swift */; };
 		F5A4F28821ECE24400159D35 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F28721ECE24400159D35 /* Storyboarded.swift */; };
+		F5D2ED8C21F7091B00A7FE97 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2ED8B21F7091B00A7FE97 /* StoryboardName.swift */; };
+		F5D2ED8E21F709B600A7FE97 /* ThirdViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2ED8D21F709B600A7FE97 /* ThirdViewControllerRouter.swift */; };
+		F5D2ED9021F70C5B00A7FE97 /* DetailViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2ED8F21F70C5B00A7FE97 /* DetailViewControllerRouter.swift */; };
+		F5D2ED9221F715A300A7FE97 /* InfoViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2ED9121F715A300A7FE97 /* InfoViewControllerRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		095FDD35B22741DA07A2BFA1 /* Pods-testProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testProject.release.xcconfig"; path = "Target Support Files/Pods-testProject/Pods-testProject.release.xcconfig"; sourceTree = "<group>"; };
 		3E46836950E93AD2AE3FE061 /* Pods-testProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testProject.debug.xcconfig"; path = "Target Support Files/Pods-testProject/Pods-testProject.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6CB504FD7E803C639ADA36 /* Pods_testProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5063BBE21F610F100C407F6 /* OnboardingFirstRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFirstRouter.swift; sourceTree = "<group>"; };
+		F5063BC021F6110F00C407F6 /* OnboardingSecondRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSecondRouter.swift; sourceTree = "<group>"; };
+		F5063BC221F6112600C407F6 /* ViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRouter.swift; sourceTree = "<group>"; };
+		F5063BC421F612C800C407F6 /* SecondViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerRouter.swift; sourceTree = "<group>"; };
 		F50CDC6121EE1B8500F1393E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		F50CDC6321EE1C4B00F1393E /* OnboardingFirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFirstController.swift; sourceTree = "<group>"; };
 		F50CDC6521EE1C6200F1393E /* OnboardingSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSecondController.swift; sourceTree = "<group>"; };
-		F50CDC6821EE1FDC00F1393E /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		F5855E1D21F3796E00C28BFD /* StocksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksManager.swift; sourceTree = "<group>"; };
+		F5855E2021F37A0700C28BFD /* NewsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		F5855E2221F37A4900C28BFD /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F5855E2421F3874E00C28BFD /* ManagerAssebly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAssebly.swift; sourceTree = "<group>"; };
+		F5855E2621F3879A00C28BFD /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
 		F5A4F26021ECCF1B00159D35 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A4F26521ECCF1B00159D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,10 +67,11 @@
 		F5A4F27721ECD09600159D35 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		F5A4F27921ECD29800159D35 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		F5A4F27B21ECD2B300159D35 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		F5A4F28121ECE06300159D35 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		F5A4F28321ECE0D700159D35 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		F5A4F28521ECE12D00159D35 /* MainCoordinatorImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorImplementation.swift; sourceTree = "<group>"; };
 		F5A4F28721ECE24400159D35 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		F5D2ED8B21F7091B00A7FE97 /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
+		F5D2ED8D21F709B600A7FE97 /* ThirdViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewControllerRouter.swift; sourceTree = "<group>"; };
+		F5D2ED8F21F70C5B00A7FE97 /* DetailViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerRouter.swift; sourceTree = "<group>"; };
+		F5D2ED9121F715A300A7FE97 /* InfoViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewControllerRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,24 +103,106 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F50CDC6021EE1A0900F1393E /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				F5A4F28321ECE0D700159D35 /* Coordinator.swift */,
-				F5A4F28121ECE06300159D35 /* AppCoordinator.swift */,
-				F5A4F28521ECE12D00159D35 /* MainCoordinatorImplementation.swift */,
-				F50CDC6821EE1FDC00F1393E /* OnboardingCoordinator.swift */,
-			);
-			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		F50CDC6721EE1C6D00F1393E /* Onboarding */ = {
+		F5063BB421F60E3100C407F6 /* OnboardingFirst */ = {
 			isa = PBXGroup;
 			children = (
 				F50CDC6321EE1C4B00F1393E /* OnboardingFirstController.swift */,
+				F5063BBE21F610F100C407F6 /* OnboardingFirstRouter.swift */,
+			);
+			path = OnboardingFirst;
+			sourceTree = "<group>";
+		};
+		F5063BB521F60E4F00C407F6 /* OnboardingSecond */ = {
+			isa = PBXGroup;
+			children = (
 				F50CDC6521EE1C6200F1393E /* OnboardingSecondController.swift */,
+				F5063BC021F6110F00C407F6 /* OnboardingSecondRouter.swift */,
+			);
+			path = OnboardingSecond;
+			sourceTree = "<group>";
+		};
+		F5063BB621F60E6A00C407F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F26521ECCF1B00159D35 /* ViewController.swift */,
+				F5063BC221F6112600C407F6 /* ViewControllerRouter.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F5063BB721F60E7900C407F6 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F27521ECD06500159D35 /* SecondViewController.swift */,
+				F5063BC421F612C800C407F6 /* SecondViewControllerRouter.swift */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		F5063BB821F60FB000C407F6 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F27721ECD09600159D35 /* ThirdViewController.swift */,
+				F5D2ED8D21F709B600A7FE97 /* ThirdViewControllerRouter.swift */,
+			);
+			path = ThirdViewController;
+			sourceTree = "<group>";
+		};
+		F5063BB921F60FBB00C407F6 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F27921ECD29800159D35 /* InfoViewController.swift */,
+				F5D2ED9121F715A300A7FE97 /* InfoViewControllerRouter.swift */,
+			);
+			path = InfoViewController;
+			sourceTree = "<group>";
+		};
+		F5063BBA21F6107900C407F6 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F27B21ECD2B300159D35 /* DetailViewController.swift */,
+				F5D2ED8F21F70C5B00A7FE97 /* DetailViewControllerRouter.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		F5063BBB21F6108400C407F6 /* GreetingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */,
+			);
+			path = GreetingViewController;
+			sourceTree = "<group>";
+		};
+		F5063BBC21F610AE00C407F6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F5063BB421F60E3100C407F6 /* OnboardingFirst */,
+				F5063BB521F60E4F00C407F6 /* OnboardingSecond */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F5063BBD21F610BD00C407F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F5063BB621F60E6A00C407F6 /* ViewController */,
+				F5063BB721F60E7900C407F6 /* SecondViewController */,
+				F5063BB821F60FB000C407F6 /* ThirdViewController */,
+				F5063BB921F60FBB00C407F6 /* InfoViewController */,
+				F5063BBA21F6107900C407F6 /* DetailViewController */,
+				F5063BBB21F6108400C407F6 /* GreetingViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F5855E1F21F379E000C28BFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5855E2021F37A0700C28BFD /* NewsManager.swift */,
+				F5855E1D21F3796E00C28BFD /* StocksManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F5A4F25721ECCF1B00159D35 = {
@@ -127,10 +227,12 @@
 			isa = PBXGroup;
 			children = (
 				F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */,
-				F50CDC6021EE1A0900F1393E /* Coordinators */,
 				F5A4F28721ECE24400159D35 /* Storyboarded.swift */,
+				F5D2ED8B21F7091B00A7FE97 /* StoryboardName.swift */,
+				F5D2ED8A21F708E500A7FE97 /* DIContainer */,
+				F5855E1F21F379E000C28BFD /* Services */,
 				F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */,
-				F5A4F27E21ECDF3E00159D35 /* Controllers */,
+				F5A4F27E21ECDF3E00159D35 /* Modules */,
 				F5A4F26721ECCF1B00159D35 /* Main.storyboard */,
 				F50CDC6121EE1B8500F1393E /* Onboarding.storyboard */,
 				F5A4F26A21ECCF1D00159D35 /* Assets.xcassets */,
@@ -140,18 +242,23 @@
 			path = testProject;
 			sourceTree = "<group>";
 		};
-		F5A4F27E21ECDF3E00159D35 /* Controllers */ = {
+		F5A4F27E21ECDF3E00159D35 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F50CDC6721EE1C6D00F1393E /* Onboarding */,
-				F5A4F26521ECCF1B00159D35 /* ViewController.swift */,
-				F5A4F27521ECD06500159D35 /* SecondViewController.swift */,
-				F5A4F27721ECD09600159D35 /* ThirdViewController.swift */,
-				F5A4F27921ECD29800159D35 /* InfoViewController.swift */,
-				F5A4F27B21ECD2B300159D35 /* DetailViewController.swift */,
-				F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */,
+				F5063BBC21F610AE00C407F6 /* Onboarding */,
+				F5063BBD21F610BD00C407F6 /* Main */,
 			);
-			path = Controllers;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F5D2ED8A21F708E500A7FE97 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				F5855E2221F37A4900C28BFD /* Container.swift */,
+				F5855E2421F3874E00C28BFD /* ManagerAssebly.swift */,
+				F5855E2621F3879A00C28BFD /* ViewControllerAssembly.swift */,
+			);
+			path = DIContainer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +341,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-testProject/Pods-testProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 			);
@@ -241,6 +349,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 			);
@@ -297,21 +406,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A4F28421ECE0D700159D35 /* Coordinator.swift in Sources */,
 				F50CDC6421EE1C4B00F1393E /* OnboardingFirstController.swift in Sources */,
 				F5A4F27621ECD06500159D35 /* SecondViewController.swift in Sources */,
-				F50CDC6921EE1FDC00F1393E /* OnboardingCoordinator.swift in Sources */,
+				F5063BC321F6112600C407F6 /* ViewControllerRouter.swift in Sources */,
 				F5A4F26621ECCF1B00159D35 /* ViewController.swift in Sources */,
+				F5063BBF21F610F100C407F6 /* OnboardingFirstRouter.swift in Sources */,
+				F5D2ED9221F715A300A7FE97 /* InfoViewControllerRouter.swift in Sources */,
 				F5A4F27821ECD09600159D35 /* ThirdViewController.swift in Sources */,
+				F5063BC121F6110F00C407F6 /* OnboardingSecondRouter.swift in Sources */,
+				F5855E1E21F3796E00C28BFD /* StocksManager.swift in Sources */,
+				F5855E2321F37A4900C28BFD /* Container.swift in Sources */,
+				F5D2ED9021F70C5B00A7FE97 /* DetailViewControllerRouter.swift in Sources */,
+				F5D2ED8C21F7091B00A7FE97 /* StoryboardName.swift in Sources */,
 				F5A4F27C21ECD2B300159D35 /* DetailViewController.swift in Sources */,
+				F5855E2521F3874E00C28BFD /* ManagerAssebly.swift in Sources */,
 				F5A4F26421ECCF1B00159D35 /* AppDelegate.swift in Sources */,
+				F5855E2121F37A0700C28BFD /* NewsManager.swift in Sources */,
 				F50CDC6B21EE23F400F1393E /* UserDefaultsKeys.swift in Sources */,
+				F5063BC521F612C800C407F6 /* SecondViewControllerRouter.swift in Sources */,
 				F5A4F27A21ECD29800159D35 /* InfoViewController.swift in Sources */,
+				F5D2ED8E21F709B600A7FE97 /* ThirdViewControllerRouter.swift in Sources */,
+				F5855E2721F3879A00C28BFD /* ViewControllerAssembly.swift in Sources */,
 				F50CDC6621EE1C6200F1393E /* OnboardingSecondController.swift in Sources */,
 				F5A4F28821ECE24400159D35 /* Storyboarded.swift in Sources */,
-				F5A4F28621ECE12D00159D35 /* MainCoordinatorImplementation.swift in Sources */,
 				F50CDC6D21EE332C00F1393E /* GreetingViewController.swift in Sources */,
-				F5A4F28221ECE06300159D35 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

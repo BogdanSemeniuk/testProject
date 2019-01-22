@@ -9,15 +9,15 @@
 import UIKit
 
 class OnboardingFirstController: UIViewController, Storyboarded {
-
-    weak var coordinator: OnboardingCoordinator?
+    
+    var router: OnboardingFirstRouter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func nextButtonTapped(_ sender: UIButton) {
-        coordinator?.showSecond()
+        router.next()
     }
     
 }

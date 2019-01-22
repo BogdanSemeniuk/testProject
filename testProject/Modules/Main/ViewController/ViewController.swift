@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ViewController.swift
 //  testProject
 //
 //  Created by Богдан Семенюк on 1/14/19.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, Storyboarded {
+class ViewController: UIViewController, Storyboarded {
     
-    weak var coordinator: MainCoordinator?
-
+    var newsManager: NewsManager!
+    var router: ViewControllerRouter!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func goToThirdTapped(_ sender: UIButton) {
-        coordinator?.showThird()
+    @IBAction func goToSecondTapped(_ sender: UIButton) {
+        router.goToSecond()
     }
 }

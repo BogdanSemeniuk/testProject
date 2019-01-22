@@ -9,14 +9,14 @@
 import UIKit
 
 class OnboardingSecondController: UIViewController, Storyboarded {
-
-    weak var coordinator: OnboardingCoordinator?
+    
+    var router: OnboardingSecondRouter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func finishButtonTapped(_ sender: UIButton) {
-        coordinator?.finish()
+        router.finish()
     }
 }

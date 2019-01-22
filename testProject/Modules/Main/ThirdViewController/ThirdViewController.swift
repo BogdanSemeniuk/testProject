@@ -10,17 +10,17 @@ import UIKit
 
 class ThirdViewController: UIViewController, Storyboarded {
     
-    weak var coordinator: MainCoordinator?
+    var router: ThirdViewControllerRouter!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
+    
     @IBAction func infoButtonTapped(_ sender: UIButton) {
-        coordinator?.showInfo()
+        router.infoTapped()
     }
     
     @IBAction func detailsButtonTapped(_ sender: UIButton) {
-        coordinator?.showDetails()
+        router.detailsTapped()
     }
 }

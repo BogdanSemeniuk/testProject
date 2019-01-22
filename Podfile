@@ -8,5 +8,6 @@ pod 'Fabric'
 pod 'Crashlytics'
 pod 'Swinject'
 pod 'SwinjectStoryboard'
+pod 'Charts'
 
 end

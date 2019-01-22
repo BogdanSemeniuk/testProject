@@ -16,5 +16,6 @@ class GreetingViewController: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         greetingLabel.text = greetingText
+        navigationController?.navigationBar.isHidden = false
     }
 }

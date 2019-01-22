@@ -15,9 +15,9 @@ protocol InfoViewControllerRouter {
 
 class InfoViewControllerRouterImplementation: InfoViewControllerRouter {
     
-    weak var view: DetailViewController?
+    weak var view: InfoViewController?
     
-    init(view: DetailViewController) {
+    init(view: InfoViewController) {
         self.view = view
     }
     
@@ -26,8 +26,9 @@ class InfoViewControllerRouterImplementation: InfoViewControllerRouter {
     }
     
     func showGreeting(text: String) {
-        view?.navigationController?.pushViewController(
-            GreetingViewController.instantiateFromStoryboard(withName: .main), animated: true)
+        let vc = GreetingViewController.instantiateFromStoryboard(withName: .main)
+        vc.greetingText = text
+        view?.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

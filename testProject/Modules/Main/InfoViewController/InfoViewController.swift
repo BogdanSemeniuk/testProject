@@ -16,6 +16,11 @@ class InfoViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     @IBAction func backButtonTapped(_ sender: UIButton) {
         router.back()
     }

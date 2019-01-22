@@ -31,5 +31,8 @@ final class ViewControllerAssembly: Assembly {
         container.storyboardInitCompleted(DetailViewController.self) { (_, controller) in
             controller.router = DetailViewControllerRouterImplementation(view: controller)
         }
+        container.storyboardInitCompleted(InfoViewController.self) { (_, controller) in
+            controller.router = InfoViewControllerRouterImplementation(view: controller)
+        }
     }
 }

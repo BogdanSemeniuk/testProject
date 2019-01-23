@@ -16,6 +16,7 @@ class SecondViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("\(#file) line \(#line) func \(#function)")
     }
     
     @IBAction func goToThirdTapped(_ sender: UIButton) {

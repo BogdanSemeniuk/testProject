@@ -22,6 +22,7 @@
 		F5855E2321F37A4900C28BFD /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2221F37A4900C28BFD /* Container.swift */; };
 		F5855E2521F3874E00C28BFD /* ManagerAssebly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2421F3874E00C28BFD /* ManagerAssebly.swift */; };
 		F5855E2721F3879A00C28BFD /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2621F3879A00C28BFD /* ViewControllerAssembly.swift */; };
+		F589719C21F8565600C75373 /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F589719B21F8565600C75373 /* UILabel+extension.swift */; };
 		F5A4F26421ECCF1B00159D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */; };
 		F5A4F26621ECCF1B00159D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4F26521ECCF1B00159D35 /* ViewController.swift */; };
 		F5A4F26921ECCF1B00159D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4F26721ECCF1B00159D35 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		F5855E2221F37A4900C28BFD /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		F5855E2421F3874E00C28BFD /* ManagerAssebly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAssebly.swift; sourceTree = "<group>"; };
 		F5855E2621F3879A00C28BFD /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
+		F589719B21F8565600C75373 /* UILabel+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
 		F5A4F26021ECCF1B00159D35 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A4F26521ECCF1B00159D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -228,10 +230,11 @@
 			children = (
 				F5A4F26321ECCF1B00159D35 /* AppDelegate.swift */,
 				F5A4F28721ECE24400159D35 /* Storyboarded.swift */,
+				F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */,
 				F5D2ED8B21F7091B00A7FE97 /* StoryboardName.swift */,
+				F589719B21F8565600C75373 /* UILabel+extension.swift */,
 				F5D2ED8A21F708E500A7FE97 /* DIContainer */,
 				F5855E1F21F379E000C28BFD /* Services */,
-				F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */,
 				F5A4F27E21ECDF3E00159D35 /* Modules */,
 				F5A4F26721ECCF1B00159D35 /* Main.storyboard */,
 				F50CDC6121EE1B8500F1393E /* Onboarding.storyboard */,
@@ -426,6 +429,7 @@
 				F5063BC521F612C800C407F6 /* SecondViewControllerRouter.swift in Sources */,
 				F5A4F27A21ECD29800159D35 /* InfoViewController.swift in Sources */,
 				F5D2ED8E21F709B600A7FE97 /* ThirdViewControllerRouter.swift in Sources */,
+				F589719C21F8565600C75373 /* UILabel+extension.swift in Sources */,
 				F5855E2721F3879A00C28BFD /* ViewControllerAssembly.swift in Sources */,
 				F50CDC6621EE1C6200F1393E /* OnboardingSecondController.swift in Sources */,
 				F5A4F28821ECE24400159D35 /* Storyboarded.swift in Sources */,
@@ -459,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -520,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -14,6 +14,7 @@ class ThirdViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("\(#file) line \(#line) func \(#function)")
     }
     
     @IBAction func infoButtonTapped(_ sender: UIButton) {

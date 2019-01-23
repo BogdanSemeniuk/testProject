@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "4b6-RO-ckG"; */
+"4b6-RO-ckG.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "58O-0p-8tD"; */
+"58O-0p-8tD.text" = "Details";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "IXv-Ep-AE4"; */
+"IXv-Ep-AE4.text" = "Info";
+
+/* Class = "UIButton"; normalTitle = "Details"; ObjectID = "Jfw-sP-0r7"; */
+"Jfw-sP-0r7.normalTitle" = "Details";
+
+/* Class = "UIButton"; normalTitle = "pass \"Hi!!!\""; ObjectID = "Qi6-MX-6hM"; */
+"Qi6-MX-6hM.normalTitle" = "pass \"Hi!!!\"";
+
+/* Class = "UIButton"; normalTitle = "Go to second"; ObjectID = "UXu-st-vMZ"; */
+"UXu-st-vMZ.normalTitle" = "Go to second";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "VXY-FP-qt7"; */
+"VXY-FP-qt7.normalTitle" = "Info";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "cg5-2b-uQq"; */
+"cg5-2b-uQq.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dp1-yM-MIK"; */
+"dp1-yM-MIK.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Go to third"; ObjectID = "ewg-Sh-1JA"; */
+"ewg-Sh-1JA.normalTitle" = "Go to third";
+
+/* Class = "UIButton"; normalTitle = "pass \"Hello!\""; ObjectID = "zRr-FH-UV9"; */
+"zRr-FH-UV9.normalTitle" = "pass \"Hello!\"";

@@ -24,6 +24,9 @@
                                 <state key="normal" title="Go to second">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="ViewController.nextButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="goToSecondTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uf6-Vv-cP2"/>
                                 </connections>
@@ -82,6 +85,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tra-3U-4PC"/>
                     </view>
+                    <connections>
+                        <outlet property="nextButton" destination="ewg-Sh-1JA" id="9Hw-Sr-UfJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vgZ-tA-bbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,6 +131,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rFI-U4-x7L"/>
                     </view>
+                    <connections>
+                        <outlet property="detailsButton" destination="Jfw-sP-0r7" id="08k-da-A2B"/>
+                        <outlet property="infoButton" destination="VXY-FP-qt7" id="zbu-Sj-bm0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79e-zI-hh6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,6 +152,9 @@
                                 <rect key="frame" x="169" y="597" width="37" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="DetailViewController.backButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="vBl-rH-Zjx" eventType="touchUpInside" id="biM-Ka-wya"/>
                                 </connections>
@@ -155,6 +168,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="DetailViewController.detailsLabel"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -190,6 +206,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="InfoViewController.infoLabel"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4b6-RO-ckG">
                                 <rect key="frame" x="169" y="597" width="37" height="30"/>
@@ -197,6 +216,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="InfoViewController.backButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="H9Y-hp-8Q6" eventType="touchUpInside" id="TkM-UC-VWi"/>
                                 </connections>
@@ -204,6 +226,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qi6-MX-6hM">
                                 <rect key="frame" x="149" y="110" width="77" height="30"/>
                                 <state key="normal" title="pass &quot;Hi!!!&quot;"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="InfoViewController.passHiButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showHiGreeting:" destination="H9Y-hp-8Q6" eventType="touchUpInside" id="5bN-gG-TnN"/>
                                 </connections>
@@ -211,6 +236,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRr-FH-UV9">
                                 <rect key="frame" x="143" y="170" width="89" height="30"/>
                                 <state key="normal" title="pass &quot;Hello!&quot;"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="InfoViewController.passHelloButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showHelloGreeting:" destination="H9Y-hp-8Q6" eventType="touchUpInside" id="5NS-KU-Ur2"/>
                                 </connections>

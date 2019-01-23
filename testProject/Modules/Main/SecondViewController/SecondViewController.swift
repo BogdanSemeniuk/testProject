@@ -13,10 +13,12 @@ class SecondViewController: UIViewController, Storyboarded {
     var newsManager: NewsManager!
     var stocksManager: StocksManager!
     var router: SecondViewControllerRouter!
-
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("\(#file) line \(#line) func \(#function)")
+        nextButton.setTitle(NSLocalizedString("SecondViewController.nextButton", value: "**SecondViewController.nextButton**", comment: ""), for: .normal)
     }
     
     @IBAction func goToThirdTapped(_ sender: UIButton) {

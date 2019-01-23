@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  testProject
+
+  Created by Богдан Семенюк on 1/23/19.
+  Copyright © 2019 Богдан Семенюк. All rights reserved.
+*/
+
+"OnboardingFirstController.nextButton" = "Следующий";
+"OnboardingFirstController.titleLabel" = "Онбординг1";
+"OnboardingSecondController.finishButton" = "Конец";
+"OnboardingSecondController.titleLabel" = "Онбординг2";
+
+"ViewController.nextButton" = "Ко второму";
+"SecondViewController.nextButton" = "К третьему";
+"ThirdViewController.infoButton" = "Информация";
+"ThirdViewController.detailsButton" = "Детали";
+"InfoViewController.infoLabel" = "Информация";
+"InfoViewController.passHiButton" = "Передать \"Хай!!!\"";
+"InfoViewController.passHelloButton" = "Передать \"Привет!\"";
+"InfoViewController.backButton" = "Назад";
+"DetailViewController.backButton" = "Назад";
+"DetailViewController.detailsLabel" = "Детали";

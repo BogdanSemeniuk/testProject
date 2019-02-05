@@ -10,6 +10,9 @@ import Swinject
 
 final class ViewControllerAssembly: Assembly {
     func assemble(container: Container) {
+        container.storyboardInitCompleted(AuthViewController.self) { (_, conroller) in
+            conroller.router = AuthRouterImplementation(view: conroller)
+        }
         container.storyboardInitCompleted(OnboardingFirstController.self) { _, controller in
             controller.router = OnboardingFirstRouterImplementation(view: controller)
         }

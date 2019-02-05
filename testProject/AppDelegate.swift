@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let isOnboardingFinished = UserDefaults.standard.bool(forKey: UserDefaultsKeys.isOnboardingFinished)
         let rootViewController = isOnboardingFinished ?
             ViewController.instantiateFromStoryboard(withName: .main) :
-            OnboardingFirstController.instantiateFromStoryboard(withName: .onboarding)
+            AuthViewController.instantiateFromStoryboard(withName: .onboarding)
         navController.viewControllers = [rootViewController]
         
         window = UIWindow(frame: UIScreen.main.bounds)

@@ -17,6 +17,8 @@
 		F50CDC6621EE1C6200F1393E /* OnboardingSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6521EE1C6200F1393E /* OnboardingSecondController.swift */; };
 		F50CDC6B21EE23F400F1393E /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */; };
 		F50CDC6D21EE332C00F1393E /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */; };
+		F572D4C32209BD93000C072E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572D4C22209BD93000C072E /* AuthViewController.swift */; };
+		F572D4C62209C11A000C072E /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572D4C52209C11A000C072E /* AuthRouter.swift */; };
 		F5855E1E21F3796E00C28BFD /* StocksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E1D21F3796E00C28BFD /* StocksManager.swift */; };
 		F5855E2121F37A0700C28BFD /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2021F37A0700C28BFD /* NewsManager.swift */; };
 		F5855E2321F37A4900C28BFD /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855E2221F37A4900C28BFD /* Container.swift */; };
@@ -53,6 +55,8 @@
 		F50CDC6521EE1C6200F1393E /* OnboardingSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSecondController.swift; sourceTree = "<group>"; };
 		F50CDC6A21EE23F400F1393E /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		F50CDC6C21EE332C00F1393E /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		F572D4C22209BD93000C072E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F572D4C52209C11A000C072E /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		F5855E1D21F3796E00C28BFD /* StocksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksManager.swift; sourceTree = "<group>"; };
 		F5855E2021F37A0700C28BFD /* NewsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
 		F5855E2221F37A4900C28BFD /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			children = (
 				F5063BB421F60E3100C407F6 /* OnboardingFirst */,
 				F5063BB521F60E4F00C407F6 /* OnboardingSecond */,
+				F572D4C42209BD9D000C072E /* AuthController */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -199,6 +204,15 @@
 				F5063BBB21F6108400C407F6 /* GreetingViewController */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		F572D4C42209BD9D000C072E /* AuthController */ = {
+			isa = PBXGroup;
+			children = (
+				F572D4C22209BD93000C072E /* AuthViewController.swift */,
+				F572D4C52209C11A000C072E /* AuthRouter.swift */,
+			);
+			path = AuthController;
 			sourceTree = "<group>";
 		};
 		F5855E1F21F379E000C28BFD /* Services */ = {
@@ -423,6 +437,7 @@
 				F5D2ED9221F715A300A7FE97 /* InfoViewControllerRouter.swift in Sources */,
 				F5A4F27821ECD09600159D35 /* ThirdViewController.swift in Sources */,
 				F5063BC121F6110F00C407F6 /* OnboardingSecondRouter.swift in Sources */,
+				F572D4C32209BD93000C072E /* AuthViewController.swift in Sources */,
 				F5855E1E21F3796E00C28BFD /* StocksManager.swift in Sources */,
 				F5855E2321F37A4900C28BFD /* Container.swift in Sources */,
 				F5D2ED9021F70C5B00A7FE97 /* DetailViewControllerRouter.swift in Sources */,
@@ -430,6 +445,7 @@
 				F5A4F27C21ECD2B300159D35 /* DetailViewController.swift in Sources */,
 				F5855E2521F3874E00C28BFD /* ManagerAssebly.swift in Sources */,
 				F5A4F26421ECCF1B00159D35 /* AppDelegate.swift in Sources */,
+				F572D4C62209C11A000C072E /* AuthRouter.swift in Sources */,
 				F5855E2121F37A0700C28BFD /* NewsManager.swift in Sources */,
 				F50CDC6B21EE23F400F1393E /* UserDefaultsKeys.swift in Sources */,
 				F5063BC521F612C800C407F6 /* SecondViewControllerRouter.swift in Sources */,
